@@ -21,10 +21,12 @@ table {
 
 tbody input {
     display: inline;
-    width: 93%;
+    width: 100%;
     text-align: center;
-    height: 5vh;
+    height: 6vh;
+    box-sizing: border-box;
     margin: 0;
+    border-radius: 0;
     border: 1px solid #ccc;
     border-bottom: 0;
     border-right: 0;
@@ -54,13 +56,12 @@ tr {
     padding: 0;
 }
 
-solid {}
+
 
  
-tbody tr:nth-child(3n+3) input{border-bottom: 1px solid #ccc;}
+tbody tr:nth-child(3n+3) input{border-bottom: 1px solid #bbb;}
 tbody tr td:nth-child(3n+3) input{border-right: 1px solid #bbb;}
 
-input[type="text"] {}
 
 input[readonly="readonly"] {
     color: gray;
