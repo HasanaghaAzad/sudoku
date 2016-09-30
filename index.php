@@ -165,7 +165,7 @@ $deleted=delnums($l,$new);
 $x= $deleted;
 }
  
-$table='<table><tbody>';
+$table='<table cellspacing="0" cellpadding="0" border="0"><tbody>';
 foreach($x as $xk => $yks){
     $table.='<tr>';
     foreach($yks as $yk => $n){
