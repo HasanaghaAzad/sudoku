@@ -1,7 +1,7 @@
 html,body {
     margin: 0;
     padding: 0;
-    font-family:Tahoma;
+    font-family:Tahoma,ArialMT;
     background: linear-gradient(#ffb100,orange);
     height: 100%;
     position: relative;
